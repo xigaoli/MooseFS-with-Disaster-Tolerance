@@ -1,0 +1,4 @@
+---- LENGTH Matches (3 in 2 files) ----
+Filesystem.c (mfsmaster):	changelog(metaversion++,"%"PRIu32"|LENGTH(%"PRIu32",%"PRIu64")",ts,inode,p->data.fdata.length);
+Filesystem.c (mfsmaster):			changelog(metaversion++,"%"PRIu32"|LENGTH(%"PRIu32",%"PRIu64")",ts,inode,length);
+Restore.c (mfsmetarestore):			if (strncmp(ptr,"LENGTH",6)==0) {

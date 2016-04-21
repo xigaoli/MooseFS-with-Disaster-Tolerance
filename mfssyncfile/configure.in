@@ -1,0 +1,19 @@
+AC_PREREQ([2.60])
+AC_INIT([mfssyncfile],[1.0], [wn@gmail.com])
+AM_INIT_AUTOMAKE(mfssyncfile, 1.0.0)
+AC_CONFIG_FILES([Makefile])
+AC_CONFIG_HEADERS([config.h])
+# Checks for programs.
+AC_PROG_CC
+
+# Checks for libraries.
+
+# Checks for header files.
+AM_CXXFLAGS=-I./../mfssserver/ 
+
+# Checks for typedefs, structures, and compiler characteristics.
+
+# Checks for library functions.
+
+AC_CONFIG_SUBDIRS([mfssyncfile])
+AC_OUTPUT
