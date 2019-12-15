@@ -6,11 +6,14 @@ Paper Link: https://link.springer.com/article/10.1007/s11227-016-1902-9
 
 Follow-up work: https://ieeexplore.ieee.org/abstract/document/7490702
 
-
-Parallel Computing Lab, State Grid Corporation of China
 Forking my own code for archive purpose.
 
 This model is the release version.
+
 Please E-mail me before using this code.
+
 #Modified at 2019-12-15
+
 #Previous Modified: 2016-04-27
+
+Parallel Computing Lab, State Grid Corporation of China
